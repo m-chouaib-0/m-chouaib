@@ -1,9 +1,17 @@
 {
     "owner": {
-        "username": "m-chouaib-0",
+        "username": "m-chouaib",
         "email": "mohamed.chouaib.99@edu.uiz.ac.ma"
     },
     "record": {
         "CNAME": "://vercel-dns.com"
-    }
+    },
+    "nested": [
+        {
+            "name": "_vercel",
+            "record": {
+                "TXT": "vc-domain-verify=m-chouaib.is-a.dev,824e1643fef6cc67e677"
+            }
+        }
+    ]
 }
